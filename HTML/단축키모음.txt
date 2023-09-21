@@ -1,0 +1,5 @@
+설정 - ctrl + ,
+emmet 재사용 - ctrl+space
+주석 - ctrl + /
+저장 - ctrl + s 
+live server - alt + l + 0

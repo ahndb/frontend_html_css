@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form 태그 실습 예제</title>
+</head>
+
+<body>
+  <h1>롯데 자이언츠 선수단 응원 메시지 이벤트</h1>
+  <form>
+    <fieldset>
+      <legend>선수단을 응원하고 경품받자!</legend>
+      <ul>
+        <li>
+          <label for="id">아이디</label><input type="text" id="id" placeholder="4자 ~ 10자 사이, 공백없이" />
+        </li>
+        <li>
+          <label for="mail">이메일</label><input type="email" id="mail" />
+        </li>
+        <li>
+          <label for="list">경품 목록</label>
+            <select id="list">
+              <option value="선수단 사인볼">선수단 사인볼</option>
+              <option value="선수단 사인볼">선수단 사인볼</option>
+              <option value="선수단 사인볼">선수단 사인볼</option>
+              <option value="선수단 사인볼">선수단 사인볼</option>
+            </select>
+        </li>
+        <li>
+          <label for="memo">메모</label>
+          <textarea name="memo" id="memo" cols="50" rows="5" placeholder="선수단에게 응원의 메시지를 보내주세요."></textarea>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+      <legend>이벤트 결과와 새로운 소식</legend>
+      <input type="radio" name="mailing" id="mailing_yes" />
+      <label for="mailing_yes">메일 수신</label>
+      <input type="radio" name="mailing" id="mailing_no" checked />
+      <label for="mailing_no">메일 수신 안 함</label>
+    </fieldset>
+
+    <div>
+      <button type="submit">이벤트 신청하기</button>
+      <button type="button">취소</button>
+    </div>
+  </form>
+</body>
+</html>
+
+<!-- form태그 잊지말기, label 묶기, select 사용법 다시 복습  -->

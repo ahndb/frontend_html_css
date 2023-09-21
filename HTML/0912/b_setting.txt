@@ -1,0 +1,17 @@
+폴더창 보기 환경설정 체크3개 다하기
+word wrap off-> on 
+tab size -> 2
+한글패치
+live server 새로고침 없이 코딩 중인 웹 업데이트
+auto rename tag  여는 태그 수정시 닫는 태그도 자동 수정
+
+bracket pair colorizer 여는 괄호 닫는괄호 짝지어줌 - 현재 내장됨
+설정 검색 bracket - enabled check, guides active check
+
+
+선택설치(필수같은)
+indent rainbow 들여쓰기 색 구분
+vscode icons 탐색기 아이콘 테마
+
+lang ko 로 설정 - emmet variables
+파일- 자동 저장
