@@ -5,3 +5,8 @@
   git branch -M main
   git remote add origin https://github.com/asi0000/frontend-html-css.git
   git push -u origin main
+
+  git add .
+  git commit -m ""
+  git pull origin main
+  git push origin main
