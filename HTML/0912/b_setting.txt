@@ -1,17 +1,25 @@
-폴더창 보기 환경설정 체크3개 다하기
-word wrap off-> on 
-tab size -> 2
-한글패치
-live server 새로고침 없이 코딩 중인 웹 업데이트
-auto rename tag  여는 태그 수정시 닫는 태그도 자동 수정
+# VSC 환경설정 #
 
-bracket pair colorizer 여는 괄호 닫는괄호 짝지어줌 - 현재 내장됨
-설정 검색 bracket - enabled check, guides active check
+1. 탭 사이즈
+- 설정 > 검색 창 > tab size 입력
+- 4(기본값)을 2로 변경
 
+2. word wrap
+- 창이 줄어 들면 자동 줄 바꿈
+- 코드를 한눈에 보기 쉽게 설정해주는 기능
+- off(기본값)을 on으로 변경
 
-선택설치(필수같은)
-indent rainbow 들여쓰기 색 구분
-vscode icons 탐색기 아이콘 테마
+3. 확장(플러그인)
 
-lang ko 로 설정 - emmet variables
-파일- 자동 저장
+[필수 설치 항목] 
+- Korean Language Pack: 에디터 한글화
+- Live Server: 새로고침 없이 코딩 중인 웹 업데이트
+- Auto Rename Tag: 여는 태그 수정 시 닫는 태그도 자동 수정
+- Bracket Pair Colorizer: 여는 괄호와 닫는 활호를 짝 지어줌
+  >> VSC 내장 기능
+  >> 설정 Editor > Colorization: Enabled설정 체크
+  >>      Editor > Guides: active 체크
+
+[선택 설치 항목]
+- indent-rainbow: 들여쓰기 색으로 구분
+- vscode-icons: 탐색기 아이콘 테마
