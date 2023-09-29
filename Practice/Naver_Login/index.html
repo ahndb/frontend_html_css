@@ -8,14 +8,15 @@
 </head>
 <body>
   <div><a href="https://naver.com">본문 바로가기</a></div>
-  <h1><a href="https://naver.com">NAVER</a></h1>
+  <h1 class="Navermain"><a href="https://naver.com">NAVER</a></h1>
+
   <main>
   <form>
     <select name="listLang" id="listLang">
       <option value="ko">한국어</option>
       <option value="en">English</option>
-      <option value="ch1">中文(简体)</option>
-      <option value="ch2">中文(台湾)</option>
+      <option value="zh1">中文(简体)</option>
+      <option value="zh2">中文(台湾)</option>
     </select>
 
     <ul>
@@ -23,6 +24,7 @@
       <li><a href="https://nid.naver.com/nidlogin.login?mode=number&url=https%3A%2F%2Fwww.naver.com%2F&locale=ko_KR&svctype=1">일회용 번호</a></li>
       <li><a href="https://nid.naver.com/nidlogin.login?mode=qrcode&url=https%3A%2F%2Fwww.naver.com%2F&locale=ko_KR&svctype=1">QR코드</a></li>
       PC방 등 공용PC라면 QR코드 로그인이 더 안전해요.
+
       <input type="button" name="chaeck" id="check" /><br /><br />
       <li>아이디</li>
       <label for="UserId"></label>
@@ -34,20 +36,23 @@
       <label for="check">로그인 상태 유지</label><br />
       <a href="https://nid.naver.com/login/ext/help_ip3.html">IP보안</a><input type="checkbox" />off
       <div><b>CapsLock</b>이 켜져 있습니다.</div> 
-      <div><strong>아이디</strong>를 입력해 주세요.</div> 
-      <div><strong>비밀번호</strong>를 입력해 주세요.</div>
-      <input type="button" name="login" id="login" value="로그인" /><br /><br />
+      <div><b>아이디</b>를 입력해 주세요.</div> 
+      <div><b>비밀번호</b>를 입력해 주세요.</div>
+      <label for="login"></label>
+      <input type="submit" name="login" id="login" value="로그인" /><br /><br />
+
       <li><a href="https://nid.naver.com/user2/help/pwInquiry?lang=ko_KR">비밀번호 찾기</a></li>
       <li><a href="https://nid.naver.com/user2/help/idInquiry?lang=ko_KR">아이디 찾기</a></li>
       <li><a href="https://nid.naver.com/user2/join/agree?lang=ko_KR&domain=www.naver.com">회원가입</a></li><br />
       <a href=""><img src="https://ssl.pstatic.net/melona/libs/1378/1378592/759c010dfa99cbb47a7e_20220405144404082.jpg" width="400" alt=""></a><br /><br />
-      <li><a href="https://policy.naver.com/rules/service.html"><span class="ddd">이용약관</span></a></li>
+      <li><a href="https://policy.naver.com/rules/service.html">이용약관</a></li>
       <li><a href="https://policy.naver.com/rules/privacy.html"><strong>개인정보처리방침</strong></a></li>
       <li><a href="https://policy.naver.com/rules/disclaimer.html">책임의 한계와 법적고지</a></li>
       <li><a href="https://help.naver.com/service/5640/category/bookmark?lang=ko">회원정보 고객센터</a></li>
     </ul>
   </form>
   </main>
+
   <footer>
     <a href="https://www.navercorp.com/">네이버 </a>Copyright &copy; NAVER Corp. All Right Reserved. <br/>20
   </footer>
