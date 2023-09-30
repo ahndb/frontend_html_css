@@ -7,9 +7,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
   <div><a href="https://naver.com">본문 바로가기</a></div>
-  <h1 class="Navermain"><a href="https://naver.com">NAVER</a></h1>
-
+  <h1><a href="https://naver.com">NAVER</a></h1>
+  </header> 
+  
   <main>
   <form>
     <select name="listLang" id="listLang">
@@ -25,21 +27,21 @@
       <li><a href="https://nid.naver.com/nidlogin.login?mode=qrcode&url=https%3A%2F%2Fwww.naver.com%2F&locale=ko_KR&svctype=1">QR코드</a></li>
       PC방 등 공용PC라면 QR코드 로그인이 더 안전해요.
 
-      <input type="button" name="chaeck" id="check" /><br /><br />
-      <li>아이디</li>
-      <label for="UserId"></label>
-      <input type="text" name="name" id="UserId" placeholder="아이디" required /><br />
-      비밀번호<br />
-      <label for="UserPass"></label>
-      <input type="password" name="password" id="UserPass" placeholder="비밀번호" required /><br />
-      <input type="checkbox" name="box" id="chack" />
-      <label for="check">로그인 상태 유지</label><br />
-      <a href="https://nid.naver.com/login/ext/help_ip3.html">IP보안</a><input type="checkbox" />off
-      <div><b>CapsLock</b>이 켜져 있습니다.</div> 
-      <div><b>아이디</b>를 입력해 주세요.</div> 
-      <div><b>비밀번호</b>를 입력해 주세요.</div>
-      <label for="login"></label>
-      <input type="submit" name="login" id="login" value="로그인" /><br /><br />
+        <input type="button" name="chaeck" id="check" /><br /><br />
+      <li>
+        <label for="UserId">아이디</label><br />
+        <input type="text" name="name" id="UserId" placeholder="아이디" required /><br />
+        <label for="UserPass">비밀번호</label><br />
+        <input type="password" name="password" id="UserPass" placeholder="비밀번호" required />삭제<br />
+        <input type="checkbox" name="box" id="chack" />
+        <label for="check">로그인 상태 유지</label><br />
+        <a href="https://nid.naver.com/login/ext/help_ip3.html">IP보안</a><input type="checkbox" />off
+        <div><b>CapsLock</b>이 켜져 있습니다.</div>
+        <div><b>아이디</b>를 입력해 주세요.</div>
+        <div><b>비밀번호</b>를 입력해 주세요.</div>
+        <label for="login"></label>
+        <input type="submit" name="login" id="login" value="로그인" /><br /><br />
+      </li>
 
       <li><a href="https://nid.naver.com/user2/help/pwInquiry?lang=ko_KR">비밀번호 찾기</a></li>
       <li><a href="https://nid.naver.com/user2/help/idInquiry?lang=ko_KR">아이디 찾기</a></li>

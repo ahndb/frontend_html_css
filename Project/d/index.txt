@@ -1,0 +1,4 @@
+header 부분을 div와 button으로 채우기
+
+
+사이드바 대신 nav로 만들기
