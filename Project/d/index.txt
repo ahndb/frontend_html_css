@@ -2,3 +2,7 @@ header 부분을 div와 button으로 채우기
 
 
 사이드바 대신 nav로 만들기
+
+
+가운대 배치 css 속성값 외우기
+
