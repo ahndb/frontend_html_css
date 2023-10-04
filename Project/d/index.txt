@@ -7,3 +7,6 @@ header 부분을 div와 button으로 채우기
 가운대 배치 css 속성값 외우기
 
 여백 주기에 따라 다름 left right 합쳐서 100 안되면 사이 여백 생김 활용
+
+초기화 코드
+https://unpkg.com/ress/dist/ress.min.css
