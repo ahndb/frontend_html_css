@@ -4,11 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Html 복습</title>
-  <style>
-    h1, h2{
-      color: navy;
-    }
-  </style>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <!-- 
@@ -19,11 +15,11 @@
 
   <header>
     <h1>About Me</h1>
-    <img src="https://nomicsen.co.kr/news/data/20230430/p1065604888347839_927_thum.jpg" alt="롯데자이언츠" width="220" height="220" />
   </header>  
   
   <main>  
     <section>
+      <img src="https://nomicsen.co.kr/news/data/20230430/p1065604888347839_927_thum.jpg" alt="롯데자이언츠" width="220" height="220" />
       <h2>John Doe</h2>
       <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
     </section>
@@ -31,7 +27,7 @@
     <section>
       <h2>Education & Work Experience</h2>
       <ul>
-        <li>MSc in Computer Science, XYZ university. 2018~2020</li>
+        <li>MSc in Computer Science, XYZ university. 2018-2020</li>
         <li>Software Developer, ABC Corp. 2020-present</li>
       </ul>
     </section>
@@ -50,15 +46,16 @@
         <fieldset>
           <legend>Your Information</legend>
             <label for="UesrName">Name:</label><br />
-            <input size="200" type="text" id="UesrName" placeholder="Enter your name" required  /><br />
-            
+            <input size="200" type="text" id="UesrName" name="name" placeholder="Enter your name" required  /><br />
+            <!-- input 태그 내에 name 작성하기 데이터 전송용 -->
+
             <label for="UesrEmail">Email:</label><br />
-            <input size="200" type="email" id="UesrEmail" placeholder="Enter your email" required /><br />
+            <input size="200" type="email" id="UesrEmail" name="email" placeholder="Enter your email" required /><br />
             
             <label for="Message">Message:</label><br />
             <textarea name="Message" id="Message" cols="100" rows="3" placeholder="Enter your message" required></textarea><br />
             
-            <button style="width: 80%;"><option value="submit">submit</option></button>
+            <input class="button" type="submit" value="submit" /> <br />
         </fieldset>
 
       </form>
