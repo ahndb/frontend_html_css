@@ -2,6 +2,14 @@ h1, h2{
   color: navy;
 }
 
+.name {
+  padding: 10px 300px;
+}
+
+.email {
+  padding: 10px 300px;
+}
+
 .button{
-  text-align: center;
+  padding: 10px 300px;
 }
