@@ -1,6 +1,24 @@
+/* div에 class 설정해서 컨테이너 역활로 씀 */
+
+.header {
+
+}
+
+.main {
+
+}
+
+.footer {
+
+}
+
+
+/*  */
+
 h1{
   font-size: 40px;
 }
 img{
   width: 400px;
 }
+
