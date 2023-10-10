@@ -1,0 +1,93 @@
+/* <!--  
+1. 제목 (<h1>)
+  색상: 파란색
+  글자 크기: 36px
+  폰트: Arial
+  중앙 정렬
+  /* 텍스트 그림자: 회색, 가로/세로 각각 2px 떨어진 위치, 3px의 흐림 정도로 적용 */
+
+h1 {
+  color: blue;
+  font-size: 36px;
+  font-family: Arial;
+  text-align: center;
+  text-shadow: 2px 2px 3px;
+}
+
+/* 2. 부제목 (<h2>)
+  색상: 초록색
+  글자 크기: 28px
+  폰트: Georgia
+  좌측 정렬
+  이탤릭체
+  밑줄 추가 */
+
+h2 {
+  color: green;
+  font-size: 28px;
+  font-family: Georgia;
+  text-align: left;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* 3. 본문 내용 (<p>)
+  색상: 검은색
+  글자 크기: 18px
+  폰트: Times New Roman
+  줄 간격: 1.6
+  첫 줄 들여쓰기: 40px
+  글자 간 간격: 1.2px
+  단어 간 간격: 2.4px */
+
+  p {
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+
+
+    
+    
+  }
+
+
+/* 4. 목록 (<ul> or <ol>)
+  색상: 갈색
+  글자 크기: 16px
+  폰트: Verdana
+  각 항목(li) 간에 8px의 마진을 가짐
+  >> margin: 8px
+  목록의 모든 단어를 대문자로 표시 */
+
+  ul, ol {
+    color: brown;
+    font-size: 16px;
+    font-family: Verdana;
+    
+    text-transform: uppercase;
+  }
+
+
+
+/* 5. 링크 (<a>)
+  색상: 보라색
+  호버 상태일 때 색상: 붉은색
+  방문한 링크 색상: 회색
+  밑줄 없음
+  글자 크기: 16px
+  글자 간 간격: 0.8px
+  폰트: Arial
+  텍스트 그림자: 검은색, 가로/세로 각각 1px 떨어진 위치, 2px의 흐림 정도로 적용
+--> */
+
+  a {
+    color: violet;
+
+
+    text-decoration: none;
+    font-size: 16px;
+
+
+    font-family: Arial;
+    text-shadow: 1px 1px 2px;
+  }

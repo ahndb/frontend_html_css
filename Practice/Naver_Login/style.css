@@ -1,5 +1,4 @@
 /* div에 class 설정해서 컨테이너 역활로 씀 */
-
 .header {
 
 }
@@ -14,11 +13,11 @@
 
 
 /*  */
-
-h1{
+h1 {
   font-size: 40px;
 }
-img{
+
+img {
   width: 400px;
 }
 
