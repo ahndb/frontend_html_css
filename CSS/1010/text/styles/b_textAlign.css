@@ -1,0 +1,16 @@
+p {
+  width: 300px;
+  border: 1px solid #000000;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
