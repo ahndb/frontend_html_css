@@ -1,0 +1,29 @@
+*{
+  text-align: center;
+}
+
+table, th, tbody{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px 13px;
+}
+
+/* width, height 너비 높이 지정때 사용 가능한 것 */
+
+caption{
+  caption-side: bottom;
+}
+
+.heading{
+  background-color: #ffffff3a;
+}
+
+/* .colone{
+  background-color: #5f1212ce;
+}
+.coltwo{
+  background-color: #ec2424ce;
+}
+.colthree{
+  background-color: #160303ce;
+} */

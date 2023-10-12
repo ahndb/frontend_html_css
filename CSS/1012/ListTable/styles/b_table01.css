@@ -1,0 +1,18 @@
+caption{
+  caption-side: bottom;
+}
+
+table {
+  border: 1px dashed red;  
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px dotted black;
+}
+
+/* 표준 테이블 속성
+table, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+} */
