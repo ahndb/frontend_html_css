@@ -1,0 +1,13 @@
+body * {
+  width: 300px;
+  border: 1px solid blue;
+}
+
+.red{
+  color: red;
+  font-weight: bold;
+}
+
+.block-heading{
+
+}
