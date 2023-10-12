@@ -1,0 +1,15 @@
+ul{
+  list-style-type: square;
+}
+
+ol{
+  list-style-type: none;
+}
+
+.ul-image{
+  list-style-image: url(../../../HTML/0915/Parctice/images/images-Folder.jpg);
+}
+
+.ul-position{
+  list-style-position: inside;
+}
