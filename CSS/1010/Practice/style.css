@@ -11,7 +11,7 @@ h1 {
   font-size: 36px;
   font-family: Arial;
   text-align: center;
-  text-shadow: 2px 2px 3px;
+  text-shadow: 2px 2px 3px gray;
 }
 
 /* 2. 부제목 (<h2>)
@@ -44,10 +44,10 @@ h2 {
     color: black;
     font-size: 18px;
     font-family: 'Times New Roman';
-
-
-    
-    
+    line-height: 1.6;     /*줄 간격*/
+    text-indent: 40px;    /*첫줄 들여쓰기*/
+    letter-spacing: 1.2px;/*글자 간 간격*/
+    word-spacing: 2.4px;  /*단어 간 간격*/
   }
 
 
@@ -55,24 +55,26 @@ h2 {
   색상: 갈색
   글자 크기: 16px
   폰트: Verdana
-  각 항목(li) 간에 8px의 마진을 가짐
-  >> margin: 8px
-  목록의 모든 단어를 대문자로 표시 */
+ */
 
   ul, ol {
     color: brown;
     font-size: 16px;
     font-family: Verdana;
-    
-    text-transform: uppercase;
   }
 
+  /* 각 항목(li) 간에 8px의 마진을 가짐
+  >> margin: 8px
+  목록의 모든 단어를 대문자로 표시 */
+
+  ul li, ol li {  
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
 
 
 /* 5. 링크 (<a>)
   색상: 보라색
-  호버 상태일 때 색상: 붉은색
-  방문한 링크 색상: 회색
   밑줄 없음
   글자 크기: 16px
   글자 간 간격: 0.8px
@@ -82,12 +84,18 @@ h2 {
 
   a {
     color: violet;
-
-
     text-decoration: none;
     font-size: 16px;
-
-
     font-family: Arial;
-    text-shadow: 1px 1px 2px;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  /*호버 상태일 때 색상: 붉은색*/
+  a:hover {
+    color: red;
+  }
+  
+  /*방문한 링크 색상: 회색*/
+  a:visited {
+    color: gray;
   }
