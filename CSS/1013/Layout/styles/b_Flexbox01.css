@@ -30,14 +30,20 @@ article {
   padding: 10px;
   margin: 10px;
   background-color: gray;
-  flex: 200px;
-  flex: 1px;
 }
 
 #pitcher  {
-
+  order: 2;
+  flex: 1;
+  
 }
 
 #catcher  {
-  
+  order: 1;
+  flex: 2 150px;
+}
+
+#fielder  {
+  order: 3;
+  flex: 1;
 }
