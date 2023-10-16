@@ -4,9 +4,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML & CSS 복습</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+
+
+  <header>
+    <div class="intro">Welcome to My Website</div>
+  </header>
+
+  <nav>
+    <span class="navSection1"><a href="#">section1</a></span>
+    <span class="navSection2"><a href="#">section2</a></span>
+  </nav>  
+
+  <main>
+    <div class="mainSection1">Section1
+      <table>
+        <tr>
+          <th class="tableHeader">Header1</th>
+          <th class="tableHeader">header2</th>
+        </tr>
+        <tr>
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+      </table>
+        <img class="img" src="https://placehold.it/150x150" alt="150x150" />
+    </div>
+
+
+    <div class="mainSection2">Section2
+      <div>
+        <img src="../.././HTML/diff-directory.jpg" alt="Example image" />
+      </div>
+
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label for="Name">Name:</label>
+        </div>
+        <div>
+          <input type="text" name="Name" id="Name" required autofocus />
+        </div>
+        
+        <div>
+          <label for="Password">Password:</label>
+        </div>
+        <div>
+          <input type="password" name="Password" id="Password" required  />
+        </div>
+
+        <div>
+          <label for="Email">Email:</label>
+        </div>
+        <div>
+          <input type="email" name="Email" id="Email" />
+        </div>
+
+        <div>Do you like this form?</div>
+        <span>
+          <label for="check">Yes</label>
+        </span>
+        <span>
+          <input type="radio" name="Yes" id="check" value="Yes" />
+        </span>
+        <span>
+          <label for="check">No</label>
+        </span>
+        <span>
+          <input type="radio" name="No" id="check" value="No" />
+        </span>
+
+        <div>
+          <label for="Comments">Comments:</label>
+        </div>
+        <div>
+          <textarea name="Comments" id="Comments" cols="150" rows="3"></textarea>
+        </div>
+        <button type="submit"><option value="Submit">Submit</option></button>
+      </fieldset>
+    </div>
+
+
+
+  </main>
 </body>
 </html>
+
+
+개인 정보를 입력하는 폼을 만드세요. 이 폼은 다음 필드를 포함해야 합니다:
+"Name": 텍스트 입력 필드로서, 필수입력이며 페이지 로딩 시 자동 포커스 되어야 합니다.
+
+
+"Do you like this form?": "Yes" 또는 "No" 라디오 버튼 옵션입니다.
+"Comments": 텍스트 영역 필드입니다.
+사용자가 폼을 다시 방문할 때 이전에 입력했던 데이터를 자동으로 채울 수 있도록 설정하세요.
+모든 입력 필드는 "Personal Information"이라는 제목을 가진 필드셋 내에 있어야 합니다.
+-->
