@@ -22,9 +22,27 @@ button  {
 }
 
 #self {
-  align-self: flex-start;
+  /* 해당 콘텐츠를 기본 축의 가장자리에 위치 */
+  /* align-self: flex-end; */
+
+  order: 0;
 }
 
+#btn2 {
+  order: 2;
+}
+
+#btn3 {
+  order: 1;
+}
+
+#btn4 {
+  order: 1;
+}
+
+#btn5 {
+  order: -1;
+}
 
 /* align-content 작성 */
 .container {
