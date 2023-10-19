@@ -1,0 +1,36 @@
+.container > div, .grid-minmax> div {
+  border: 2px solid tomato;
+  border-radius: 5px;
+  background-color: bisque;
+  padding: 10px;
+}
+
+
+/* 
+  가변단위 fr
+  여러개 만들 때 repeat
+  gap: 열행 간격 정리
+*/
+.container {
+  display: grid;
+  /* 명시적 그리드 */
+  /* grid-template-columns: repeat(5,1fr); */
+
+  /* auto-fit */
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+
+  /* 암시적 그리드 크기 지정 */
+  /* 최소크기 100px, 최대 크기는 auto 지정 */
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+}
+
+/* minmax 함수 사용 */
+
+.grid-minmax {
+  display: grid;
+  /* grid-template-columns: minmax(100px, 300px) minmax(200px,400px) minmax(50px,150px); */
+
+  /* auto 키워드를 사용한 크기 설정 */
+  grid-template-columns: minmax(auto, 1fr) 2fr;
+}
