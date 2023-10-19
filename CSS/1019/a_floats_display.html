@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Floats</title>
+  <link rel="stylesheet" href="styles/a_floats_display.css">
+</head>
+<body>
+  <!--  
+    *그리드보다 옛날 기술
+    ! float: 뜨다
+    float 속성
+      : 왼쪽 | 오른쪽으로 배치
+      : p태그와 같은 텍스트의 왼쪽이나 오른쪽에 이미지를 나란히 표시해야 하는 경우 사용
+      속성값
+        ? left: 해당 요소를 문서의 왼쪽에 배치
+        ? right: 해당 요소를 문서의 오른쪽에 배치
+        ? none(기본값): 좌우 어느 쪽에도 배치 X 
+      : 가로 배치 시 요소에 기본 마진과 패딩 X
+
+    ! clear 속성
+      : float 속성을 해제
+      : float 속성을 사용하여 웹의 요소를 왼쪽 | 오른쪽 배치시, 그 다음에 넣는 다른 요소에도 똑같이 속성이 전달
+      : float 속성을 더 이상 유용하지 않도록 설정
+      속성값
+        ? left - float: left 해제
+        ? rigth - float: right 해제
+        ? both - float: left와 float: right 해제
+
+    ! display 속성
+      : 요소가 웹 페이지에서 어떻게 표시되는지를 결정
+      : 각 값에 따라 요소의 레이아웃과 동작이 달라짐.
+      속성값
+        ? block
+          : 인라인 레벨 요소를 블록 레벨 요소로 전환
+        ? inline
+          : 블록 레벨 요소를 인라인 레벨 요소로 전환
+        ? inline-block
+          : 인라인 레벨 요소와 블록 레벨 요소 속성을 모두 가짐
+          - inline처럼(새로운 줄 시작 X)
+          - block처럼
+            지정된 가로와 세로 크기를 가짐, 마진과 패딩 지정 O
+          - 수평 정렬된 메뉴(nav)나 버튼 목록을 만들 때
+          - 요소 사이에 공백이 기본 지정
+        ? flex(inline-flex)
+          : inline-flex는 flex 속성을 갖지만 인라인 요소처럼 동작
+            - flex 컨테이너 내에서 인라인 요소로 배치
+            - 자식 요소들은 flex 아이템으로 유연성있게 배치
+        ? grid(inline-grid)
+          : inline-grid는 grid의 인라인 버전
+          : 
+  -->
+  <h1>간단한 float & display</h1>
+
+  <div class="box">float</div>
+  <p class="special">
+    When viewed from home plate, it refers to the outfielder on the right side of the field. In English, it is called Light Fielder. The position number of the right field is 9. Since 
+  </p>
+  
+  <hr />
+  <p class="cleared">
+    When viewed from home plate, it refers to the outfielder on the right side of the field. In English, it is called Light Fielder. The position number of the right field is 9. Since right fielders are the farthest to third base among outfielders, it is common for the strongest shoulder among outfielders to be deployed to performwell in throwing to third base. //////    When viewed from home plate, it refers to the outfielder on the right side of the field. In English, it is called Light Fielder. The position number of the right field is 9. Since right fielders are the farthest to third base among outfielders, it is common for the strongest shoulder among outfielders to be deployed to performwell in throwing to third base. //////
+  </p>
+
+  <hr />
+  <p>
+    When viewed from home plate, it refers to the outfielder on the right side of the field. In English, it is called Light Fielder. The position number of the right field is 9. Since right fielders are the farthest to third base among outfielders, it is common for the strongest shoulder among outfielders to be deployed to performwell in throwing to third base. //////    When viewed from home plate, it refers to the outfielder on the right side of the field. In English, it is called Light Fielder. The position number of the right field is 9. Since right fielders are the farthest to third base among outfielders, it is common for the strongest shoulder among outfielders to be deployed to performwell in throwing to third base. //////
+  </p>
+
+  <hr />
+  <h1>Display 속성 예제</h1>
+  <nav>
+    <ul>
+      <li>menu 1</li>
+      <li>menu 2</li>
+      <li>menu 3</li>
+      <li>menu 4</li>
+    </ul>
+  </nav>
+
+  <hr />
+
+  <!-- inline-flex 예제 -->
+  <div class="menu">
+    <button class="menu-item">home</button>
+    <button class="menu-item">about</button>
+    <button class="menu-item">contact</button>
+  </div>
+  
+  <hr />
+  <!-- inline-grid 예제 -->
+  <div class="widget">
+    <span class="icon">📅</span>
+    <span class="text">Calendar</span>
+  </div>
+</body>
+</html>
