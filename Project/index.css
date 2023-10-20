@@ -1,0 +1,181 @@
+body {
+  
+}
+header, main, footer {
+  width: 90%;
+  max-width: 900px;
+  
+}
+
+header {
+
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  
+}
+
+.top, .teamStore {
+  border: 1px solid white;
+  display: flex;
+  justify-content: right;
+  flex-flow: row-reverse
+  
+}
+
+.teamStore {
+  border: 1px solid white;
+  display: block;
+  text-decoration: none;
+  color: red;
+}
+
+.singup {
+  border: 1px solid white;
+}
+
+.login  {
+  border: 1px solid white;
+}
+
+#mainImg1 {
+
+}
+
+#nav {
+
+}
+
+.menu {
+
+}
+
+.mainNav {
+
+}
+
+.greeting {
+
+}
+
+.coachingStaff{}
+.contents{}
+.gameSchedule{}
+.ticket{}
+.pointGuide{}
+#mainTigers{}
+.greeting{}
+.intro{}
+.championsFieldTeamGuide{}
+.challengersFieldTeamGuide{}
+.ci{}
+.history{}
+#mainPlayers{}
+.coachingStaff{}
+.pitcher{}
+.catcher{}
+.infielder{}
+.outfielder{}
+.militaryEnlisted{}
+.entryStatus{}
+
+#mainContents{}
+.notice{}
+.press{}
+.news{}
+.webzine{}
+.tv{}
+.episode{}
+.sns{}
+
+#mainGame{}
+.schedule{}
+.gameSchedule{}
+.pictures{}
+.teamRanking{}
+
+#mainTicket{}
+.reservation{}
+.seasonPass{}
+.skybox{}
+
+#mainMembership{}
+.pointGuide{}
+.faq{}
+.mainImg{}
+.hotIssue{}
+
+
+
+.allTigers {
+  display: grid;
+}
+
+.pointGuide {  
+  grid-column: 1 /50;
+  grid-row: 1;
+}
+.teamStore  {
+  grid-column: 25 /50;
+  grid-row: 1;
+}
+.sponsorShip  {
+  grid-column: 50 /50;
+  grid-row: 1;
+} 
+.gameSchedule {
+  grid-column: 1 /50;
+  grid-row: 2;
+}
+.fieldGuide {
+  grid-column: 25 /50;
+  grid-row: 2;
+}
+.producePlayers {
+  grid-column: 50 /50;
+  grid-row: 2;
+}
+.twitterKiatigers {
+  grid-column: 1 /50;
+  grid-row: 3;
+}
+.instagramKiataigers {
+  grid-column: 25 /50;
+  grid-row: 3;
+}
+.youtubeKiataigers {
+  grid-column: 50 /50;
+  grid-row: 3;
+}
+
+.advertisement{}
+
+.footer>ul>li {
+  background-color: #dfdfdf;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 5px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+}
+.ulFooter{}
+.privacy{}
+.service{}
+.operation{}
+.email{}
+.sponsor{}
+.index{}
+.snsNaver{}
+.snsDaum{}
+.snsKakao{}
+.snsYoutube{}
+.snsInstagram{}
+.snsTwitter{}
