@@ -1,0 +1,19 @@
+1. 사용자 동작에 반응하는 가상 클래스 선택자
+  - :hover
+  - :focus
+  - :active
+  - :linke
+  - :visited 
+
+
+
+
+
+
+
+
+
+
+
+
+
