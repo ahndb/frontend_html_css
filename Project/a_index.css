@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.top >li {
+  float: left;
+  display: flex;
+  }
+  
+  .teamStore1 {
+    background-color: rgb(190, 235, 235);
+  }
+  .singup1 {
+    background-color: bisque;
+  }
+  .login1  {
+    background-color: rgb(199, 160, 235);
+  }
