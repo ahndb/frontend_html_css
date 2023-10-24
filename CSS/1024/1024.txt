@@ -5,15 +5,4 @@
   - :linke
   - :visited 
 
-
-
-
-
-
-
-
-
-
-
-
-
+c_.html fixed 부분 보강하기
