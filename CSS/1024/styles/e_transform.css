@@ -30,3 +30,23 @@
   /* xy축(가로,세로)으로 20px 이동 */
   transform: translate(10px, 20px);
 }
+
+#scalex {
+  transform: scaleX(2);
+}
+#scaley {
+  transform: scaleY(1.5);
+}
+#scale {
+  /* 안으로 축소됨 0.n사용 */
+  transform: scale(0.1);
+}
+
+#rotate1:hover {
+  /* 양수값: 오른쪽으로 회전 */
+  transform: rotate(40deg);
+}
+#rotate2:hover {
+  /* 양수값: 오른쪽으로 회전 */
+  transform: rotate(-40deg);
+}
