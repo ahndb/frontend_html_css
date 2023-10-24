@@ -17,3 +17,16 @@
   height: 100px;
   background-color: orange;
 }
+
+#movex:hover {
+  /* x축(가로)으로 50px 이동 */
+  transform: translateX(50px);
+}
+#movey:hover {
+  /* y축(세로)으로 20px 이동 */
+  transform: translateY(20px);
+}
+#movexy:hover {
+  /* xy축(가로,세로)으로 20px 이동 */
+  transform: translate(10px, 20px);
+}

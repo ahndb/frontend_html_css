@@ -54,6 +54,7 @@ a {
   width: 850px;
   height: 150px;
   line-height: 150px;
+  
 }
 /* 1024 a_pseudi01 참고 */
 
@@ -95,7 +96,7 @@ a {
   margin: 0;
   text-align: center;
 }
-
+ㅎ
 #menu2 > ul > li {
   float: left;
   width: 140px;
@@ -113,9 +114,6 @@ a {
 #menu2 > ul > li:hover > ul {
   display:block;
 }
-
-
-
 
 
 
