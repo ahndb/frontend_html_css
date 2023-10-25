@@ -1,9 +1,91 @@
 body {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    margin: 0 auto;
-  }
+  display: flex;
+  flex-flow: column;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  width: 90%;
+}
+
+.top > li {
+  float: left;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+  width: 90%;
+  height: 90px;
+  line-height: 90px;
+}
+
+nav  div  ul  ul {
+  display: none;
+  
+}
+
+nav > div > ul > li {
+  float: left;
+  
+}
+
+
+nav > div > ul > li:hover > ul {
+  display:block;
+}
+
+.mainImg > img {
+  position: relative;
+  width: 100%;
+}
+
+.hotIssue {
+  background-color: antiquewhite;
+  width: 90%;
+  height: 400px;
+}
+
+.leftImg {
+  float: left;
+
+}
+
+
+.rightImg {
+  float: right;
+}
+
+.allTigers {
+  display: flex;
+  flex-flow: wrap;
+  background-color: red;
+  height: 1050px;
+}
+
+.allTigers > div {
+  display: flex;
+}
+
+section > .advertisement {
+  background-color: antiquewhite;
+  height: 200px;
+}
+
+footer > div > ul {
+  display: flex;
+}
+
+.footer > .ulFooter {
+  background-color: gray;
+  height: 60px;
+}
+
+.footer1, .footer2, .footer3, .copyright {
+  background-color: aqua;
+}
 
 a {
   text-decoration: none;
@@ -14,17 +96,24 @@ ul {
   list-style: none;
 }
 
-.top >li {
-  float: left;
-  display: flex;
-  }
-  
-  .teamStore1 {
-    background-color: rgb(190, 235, 235);
-  }
-  .singup1 {
-    background-color: bisque;
-  }
-  .login1  {
-    background-color: rgb(199, 160, 235);
-  }
+.teamStore1 {
+  background-color: rgb(190, 235, 235);
+}
+
+.teamStore1 > a {
+  color: red;
+  font-weight: bold;
+}
+
+.singup1 {
+  background-color: bisque;
+}
+
+.singup1 > a, .login1 > a {
+  color: black;
+  font-weight: bold;
+}
+
+.login1  {
+  background-color: rgb(199, 160, 235);
+}
