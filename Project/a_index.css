@@ -18,6 +18,8 @@ header {
 
 nav {
   width: 90%;
+  margin-top: 50px;
+  position: fixed;
 }
 
 nav > div {
@@ -28,11 +30,14 @@ nav div ul {
   display: flex;
   justify-content: space-around;
   background-color: antiquewhite;
-  
+  font-size: 25px;
+  color: #a3a3a3;
 }
 
 nav div ul ul {
   display: none;
+  font-size: 18px;
+  color: #a3a3a3;
 }
 
 nav ul:hover ul {
@@ -41,9 +46,10 @@ nav ul:hover ul {
 }
 
 
-.mainImg > img {
-  position: relative;
+.backgroundImg {
   width: 100%;
+  margin: 0 auto;
+  margin-top: 130px;
 }
 
 .hotIssue {
@@ -68,12 +74,18 @@ nav ul:hover ul {
 }
 
 .allTigers {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-flow: wrap;
   background-color: red;
+  position: ;
   height: 1050px;
   margin-left: 150px;
   margin-right: 150px;
+}
+
+.allTigers > div {
+  object-fit: cover;
+  text-align: center;
 }
 
 section > .text {

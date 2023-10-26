@@ -1,0 +1,25 @@
+/* media media-type and (media-feature-rule) {
+  /* CSS 규칙칸 */
+/* 
+
+- 미디어유형 (미디어 규칙이 적용되기 위한 조건) {
+/* CSS 규칙칸*/
+
+
+/* 화면이 딱 정해진 크기일때 적용됨 */
+/* @media screen and (max-width: 800px) and (max-height: 500px) and (orientation:landscape) { 
+  body {
+    background-color: aquamarine;
+  }
+} */
+
+body {
+  width: 1600px;
+  height: 900px;
+}
+
+/* @media (hover:hover) {
+  body {
+    background-color: lawngreen;
+  }
+} */
