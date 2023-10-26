@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+#container {
+  width: 320px;
+  margin: 50px auto;
+}
+
+#card {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  margin: 10px;
+  border: 1px solid #0f0f0f;
+  background-color: white;
+}
+
+.words {
+  position: absolute;
+  left: 10px;
+  top: 300px;
+  text-align: center;
+  width: 200px;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+  #contaier {
+    width: 570;
+    margin: 50px auto;
+  }
+  #card {
+    position: relative;
+    width: 550px;
+    height: 250px;
+    margin: 10px;
+    border: 1px solid #0f0f0f;
+    background-color: white;
+  }
+  .words {
+    position: absolute;
+    left: 310px;
+    top: 50px;
+    text-align: center;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  #contaier {
+    width: 1140px;
+    margin: 50px auto;
+  }
+  #card {
+    position: relative;
+    /* 카드를 가로롤 배치 */
+    float: left;
+    width: 550px;
+    height: 250px;
+    margin: 10px;
+    border: 1px solid #0f0f0f;
+    background-color: white;
+  }
+  .words {
+    position: absolute;
+    left: 310px;
+    top: 50px;
+    text-align: center;
+    width: 200px;
+  }
+}
