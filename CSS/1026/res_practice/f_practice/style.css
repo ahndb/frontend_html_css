@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: rgb(174, 215, 252);
 }
 
 #container {
@@ -30,16 +30,17 @@ body {
   width: 200px;
 }
 
-img {
-  width: 300px;
-  height: 250px;
-}
-
-@media screen and (min-width:768px) and (max-width:1439px) {
-  #contaier {
-    width: 570;
+/* 태블릿 사이즈 */
+/* 
+  card 내부는 가로 배치
+  , 전체 container 자식요소(카드)는 세로 배치(그대로)  
+*/
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  #container {
+    width: 570px;
     margin: 50px auto;
   }
+
   #card {
     position: relative;
     width: 550px;
@@ -48,6 +49,7 @@ img {
     border: 1px solid #0f0f0f;
     background-color: white;
   }
+
   .words {
     position: absolute;
     left: 310px;
@@ -57,14 +59,21 @@ img {
   }
 }
 
-@media screen and (min-width:1440px) {
-  #contaier {
+/* 데스크톱 사이즈 */
+/*  
+  card 내부 가로 배치
+  , 전체 container 자식요소(카드)는 가로 배치
+*/
+
+@media screen and (min-width: 1440px) {
+  #container {
     width: 1140px;
     margin: 50px auto;
   }
+
   #card {
     position: relative;
-    /* 카드를 가로롤 배치 */
+    /* 카드를 가로로 배치 */
     float: left;
     width: 550px;
     height: 250px;
@@ -72,6 +81,7 @@ img {
     border: 1px solid #0f0f0f;
     background-color: white;
   }
+
   .words {
     position: absolute;
     left: 310px;
@@ -79,4 +89,9 @@ img {
     text-align: center;
     width: 200px;
   }
+}
+
+img {
+  width: 250px;
+  height: 150px;
 }
