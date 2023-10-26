@@ -1,12 +1,15 @@
 body {
   display: flex;
   flex-flow: column;
+  margin: 0 auto;
+  text-align: left;
 }
 
 header {
   display: flex;
   justify-content: end;
   width: 90%;
+  
 }
 
 .top > li {
@@ -14,28 +17,29 @@ header {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: blanchedalmond;
   width: 90%;
-  height: 90px;
-  line-height: 90px;
 }
 
-nav  div  ul  ul {
+nav > div {
+  background-attachment: fixed;
+}
+
+nav div ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  
+}
+
+nav div ul ul {
   display: none;
-  
 }
 
-nav > div > ul > li {
-  float: left;
-  
+nav ul:hover ul {
+  display: block; 
+  position: absolute;
 }
 
-
-nav > div > ul > li:hover > ul {
-  display:block;
-}
 
 .mainImg > img {
   position: relative;
@@ -44,13 +48,18 @@ nav > div > ul > li:hover > ul {
 
 .hotIssue {
   background-color: antiquewhite;
-  width: 90%;
   height: 400px;
+  margin: 30px auto;
+}
+
+.hotIssue > .text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 150px;
 }
 
 .leftImg {
   float: left;
-
 }
 
 
@@ -59,32 +68,64 @@ nav > div > ul > li:hover > ul {
 }
 
 .allTigers {
-  display: flex;
-  flex-flow: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background-color: red;
   height: 1050px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.allTigers > div {
+section > .text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 150px;
+}
+
+.allTigers > div > div {
   display: flex;
+}
+
+#section4 {
 }
 
 section > .advertisement {
   background-color: antiquewhite;
-  height: 200px;
+  height: 100px;
+  padding: 20px;
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
+
+/* .backgroundImg {
+  background-image: url(https://stage.tigers.co.kr/files/banner/2023/02/08/catchphrase_pc.png);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+} */
 
 footer > div > ul {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .footer > .ulFooter {
-  background-color: gray;
-  height: 60px;
+  background-color: #a3a2a228;
+  padding: 5px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 30px;
 }
 
-.footer1, .footer2, .footer3, .copyright {
+.footer1, .footer2, .footer3 {
   background-color: aqua;
+  margin-left: 150px;
+}
+
+.copyright {
+  background-color: bisque;
+  margin-top: 10px;
+  margin-left: 150px;
 }
 
 a {
@@ -94,6 +135,7 @@ a {
 
 ul {
   list-style: none;
+  margin-left: -40px;
 }
 
 .teamStore1 {
@@ -116,4 +158,8 @@ ul {
 
 .login1  {
   background-color: rgb(199, 160, 235);
+}
+
+.redEffect {
+  color: red;
 }

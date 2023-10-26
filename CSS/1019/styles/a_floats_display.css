@@ -39,7 +39,7 @@ nav ul li {
 }
 
 /* inline-flex 예제 */
-/* 페이지에서 인라인 요소처럼 나타나면서 내부의 버튼들은 플렉스 아이테처럼 동작 */
+/* 페이지에서 인라인 요소처럼 나타나면서 내부의 버튼들은 플렉스 아이템처럼 동작 */
 .menu {
   display: inline-flex;
   border: 1px solid black;
