@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: aquamarine;
+  display: flex;
+}
+
+.top > li {
+  float: left;
+}
+
+
+
+nav {
+  background-color: rgb(219, 80, 80)
+}
+
+main {
+  background-color: rgb(156, 231, 106);
+}
+
+footer {
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  list-style: none;
+}
