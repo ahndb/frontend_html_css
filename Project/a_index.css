@@ -1,15 +1,15 @@
 body {
   display: flex;
   flex-flow: column;
-  margin: 0 auto;
-  text-align: left;
+  margin: 0;
+  background-color: antiquewhite;
 }
 
 header {
   display: flex;
   justify-content: end;
-  width: 90%;
-  
+  margin: 0 20%;
+  background-color: aquamarine;  
 }
 
 .top > li {
@@ -17,21 +17,26 @@ header {
 }
 
 nav {
-  width: 90%;
-  margin-top: 50px;
+  margin: 50px 50px;
+  width: 83%;
   position: fixed;
+  background-color: rgb(219, 80, 80)
 }
-
+main {
+  background-color: rgb(156, 231, 106);
+}
 nav > div {
   background-attachment: fixed;
+  
 }
 
 nav div ul {
   display: flex;
   justify-content: space-around;
-  background-color: antiquewhite;
+  background-color: white;
   font-size: 25px;
   color: #a3a3a3;
+  font-weight: bold;
 }
 
 nav div ul ul {
@@ -159,19 +164,7 @@ ul {
   font-weight: bold;
 }
 
-.singup1 {
-  background-color: bisque;
-}
-
 .singup1 > a, .login1 > a {
   color: black;
   font-weight: bold;
-}
-
-.login1  {
-  background-color: rgb(199, 160, 235);
-}
-
-.redEffect {
-  color: red;
 }
