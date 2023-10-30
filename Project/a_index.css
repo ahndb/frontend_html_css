@@ -1,33 +1,10 @@
-body {
-  display: flex;
-  flex-flow: column;
-  margin: 0;
-  background-color: antiquewhite;
-}
-
-header {
-  display: flex;
-  justify-content: end;
-  margin: 0 20%;
-  background-color: aquamarine;  
-}
-
-.top > li {
-  float: left;
-}
-
 nav {
-  margin: 50px 50px;
-  width: 83%;
   position: fixed;
-  background-color: rgb(219, 80, 80)
 }
-main {
-  background-color: rgb(156, 231, 106);
-}
+
+
 nav > div {
   background-attachment: fixed;
-  
 }
 
 nav div ul {
@@ -57,17 +34,6 @@ nav ul:hover ul {
   margin-top: 130px;
 }
 
-.hotIssue {
-  background-color: antiquewhite;
-  height: 400px;
-  margin: 30px auto;
-}
-
-.hotIssue > .text {
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 150px;
-}
 
 .leftImg {
   float: left;
@@ -92,34 +58,6 @@ nav ul:hover ul {
   object-fit: cover;
   text-align: center;
 }
-
-section > .text {
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 150px;
-}
-
-.allTigers > div > div {
-  display: flex;
-}
-
-#section4 {
-}
-
-section > .advertisement {
-  background-color: antiquewhite;
-  height: 100px;
-  padding: 20px;
-  margin-top: 80px;
-  margin-left: 150px;
-  margin-right: 150px;
-}
-
-/* .backgroundImg {
-  background-image: url(https://stage.tigers.co.kr/files/banner/2023/02/08/catchphrase_pc.png);
-  background-repeat: repeat-x;
-  background-attachment: fixed;
-} */
 
 footer > div > ul {
   display: flex;

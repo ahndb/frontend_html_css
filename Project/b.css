@@ -1,3 +1,4 @@
+/* body 비는공간 없게 만들고 세로정렬 */
 body {
   margin: 0;
   padding: 0;
@@ -9,24 +10,93 @@ body {
 header {
   background-color: aquamarine;
   display: flex;
+  justify-content: end;
+  margin-top: 5px;
+  margin-left: 350px;
+  margin-right: 350px;
+  font-size: 13px;
 }
 
+/* hearder 가로배치 */
 .top > li {
-  float: left;
+  display: inline-block;
 }
 
-
-
+/* 카테고리부분 마진설정 */
 nav {
-  background-color: rgb(219, 80, 80)
+  background-color: rgb(219, 80, 80);
+  margin-top: 5px;
+  margin-left: 350px;
+  margin-right: 350px;
 }
 
-main {
+
+/* 카테고리속 중앙 이미지 */
+#mainlogo {
+  background-image: url(https://tigers.co.kr/img/sub/emblem01_01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25rem;
+  height: 25rem;
+}
+
+#section2 {
   background-color: rgb(156, 231, 106);
+  margin-top: 60px;
+  margin-left: 350px;
+  margin-right: 350px;
 }
 
-footer {
+.allTigers {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+}
+
+
+
+/* 이미지를 백그라운드로 설정 */
+#section1 {
+  width: 1904px;
+  height: 1000px;
+  background-image: url(https://stage.tigers.co.kr/files/banner/2023/02/08/catchphrase_pc.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+section > .hotIssue {
+  background-color: aqua;
+  width: 100%;
+}
+
+#section4 {
+  background-color: aquamarine;
+  margin-top: 5px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.footer > .ulFooter {
+  background-color: #a3a2a228;
+
+
+}
+
+footer > .footer1 {
   background-color: yellow;
+  margin: 5px 350px 50px 350px;
+}
+
+footer > div > ul {
+  display: flex;
+  height: 55px;
+  line-height: 35px;
+}
+
+footer > div > ul li {
+  padding: 10px;
+  margin-left: 30px;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
@@ -37,3 +107,4 @@ a {
 ul li {
   list-style: none;
 }
+
