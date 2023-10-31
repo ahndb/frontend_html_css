@@ -8,13 +8,17 @@ body {
 }
 
 header {
-  background-color: aquamarine;
+  background-color: white;
   display: flex;
   justify-content: end;
   margin-top: 5px;
   margin-left: 350px;
   margin-right: 350px;
   font-size: 13px;
+  padding-right: 30px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 0.05px 0.05px 0.001px;
 }
 
 /* hearder 가로배치 */
@@ -22,23 +26,59 @@ header {
   display: inline-block;
 }
 
-/* 카테고리부분 마진설정 */
-nav {
-  background-color: rgb(219, 80, 80);
-  margin-top: 5px;
-  margin-left: 350px;
-  margin-right: 350px;
+.teamStore1 {
+  color: red;
 }
 
+.login1, .singup1 {
+  color: #888;
+}
+
+/* !여기까지 header 완성 */
+
+/* 카테고리부분 마진설정 */
+nav {
+  background-color: rgb(222, 226, 198);
+  margin-left: 350px;
+  margin-right: 350px;
+
+}
+
+#menu1 {
+  text-align: left;  
+
+}
+
+#menu1 > ul {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#menu1 > ul li > a {
+  color: #424242;
+}
+
+
+#menu1 > ul > li li{
+  font-size: 14px;
+  margin-left: -40px;
+}
+
+/*  */
 
 /* 카테고리속 중앙 이미지 */
 #mainlogo {
   background-image: url(https://tigers.co.kr/img/sub/emblem01_01.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 25rem;
-  height: 25rem;
+  width: 132px;
+  height: 101px;
 }
+
+
 
 #section2 {
   background-color: rgb(156, 231, 106);
@@ -51,8 +91,6 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 380px);
 }
-
-
 
 /* 이미지를 백그라운드로 설정 */
 #section1 {
@@ -77,8 +115,6 @@ section > .hotIssue {
 
 .footer > .ulFooter {
   background-color: #a3a2a228;
-
-
 }
 
 footer > .footer1 {
