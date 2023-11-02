@@ -107,3 +107,34 @@ prompt = '태어난연도' +currentYear - brithYear+ '에 태어난 사람의 �
 */
 
 const PI = 3.14;
+
+//! 변수의 호이스팅
+// var의 호이스팅
+
+console.log(a);
+// undefined (정의되지 않은)
+
+var a = 5;
+
+console.log(a);
+
+//? let과 const의 호이스팅
+// console.log(b); 
+// - ReferenceError: cannot access 'b' before initialization
+let b = 5;
+console.log(b);
+
+{
+  let b = 10;
+  console.log(b);
+}
+
+console.log(b);
+
+// console.log(c);
+// - ReferenceError: cannot access 'c' before initialization
+const c = 5;
+
+//! var 키워드의 경우
+// 변수를 중복해서 선언할 수 있다는 위험성,
+// 변수가 속하는 범위가 애매하다는 점에서 코드에 혼란을 줄 수 있기 때문에 사용 X
