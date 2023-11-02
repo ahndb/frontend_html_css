@@ -67,29 +67,22 @@ var variable2 = '안녕 변수!'; // 초기화
 //* Practice: 나이 계산 프로그램 만들기
 
 // 올해 연도, 태어난 연도, 나이에 대한 변수 선언
-// 올해연도를 나타내는 변수에 2023값 할당
+// 올해 연도를 나타내는 변수에는 2023 값 할당
+let currentYear = 2023;
+let birthYear;
+let age;
 
 // 태어난 연도의 경우 prompt창에서 값을 할당 받아옴.
+birthYear = prompt('태어난 연도를 입력해주세요.');
 
 // 나이 변수에 올해 연도와 태어난 연도 변수를 사용하여 식을 완성
+age = currentYear - birthYear;
 
-// 해당나이 결과를 웹 브라우저에서 출력
+// 해당 나이 결과를 웹 브라우저에서 출력
 // '태어난 연도(숫자)'에 태어난 사람의 나이는 '나이(숫자)'세입니다.
+document.write('올해는 ' + currentYear + '년 입니다. <br />');
 
-let currentYear = document.write('올해의 연도',);
-let brithYear = document.write('태어난 연도',);
-let age = document.write('나이',);
-
-prompt = '태어난연도' +currentYear - brithYear+ '에 태어난 사람의 나이는 나이'+ age+ '세입니다';
-
-// let currentYear = 2023;
-// let birthYear;
-
-// brithYear = prompt('태어난 연도를 입력해주세요.');
-
-// age = currentYear - birthYear;
-
-// document.write('올해는 ' + )
+document.write(birthYear + '년에 태어난 사람의 나이는 ' + age + '세입니다.');
 
 
 /*
