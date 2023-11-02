@@ -41,6 +41,7 @@ nav {
   background-color: rgb(222, 226, 198);
   margin-left: 350px;
   margin-right: 350px;
+  flex-direction: column;
 
 }
 
@@ -57,14 +58,23 @@ nav {
   font-weight: 600;
 }
 
-#menu1 > ul li > a {
+#menu1  ul li  a {
   color: #424242;
+  text-decoration: none;
 }
 
+#menu1 ul li li {
+  list-style-type: none;
+  font-size: 20px;
+}
 
 #menu1 > ul > li li{
   font-size: 14px;
   margin-left: -40px;
+}
+
+#menu a:hover {
+  color: red;
 }
 
 /*  */
@@ -88,8 +98,10 @@ nav {
 }
 
 .allTigers {
-  display: grid;
-  grid-template-columns: repeat(3, 380px);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 /* 이미지를 백그라운드로 설정 */
