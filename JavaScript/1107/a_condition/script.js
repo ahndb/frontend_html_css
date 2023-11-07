@@ -194,19 +194,38 @@ select.onchange = setWeather;
 function setWeather() {
   const choice = select.value;
 
-  if (choice === 'sunny') {
-  para. textContent = "It's sunny day";
-  } else if (choice === 'rainy') {
-  para.textContent = "It's rainy day";
-  } else if (choice === 'snowing') {
-  para.textContent = "It's snowing day";
-  } else if (choice === 'overcast') {
-  para.textContent = "It's overcast day";
-  } else {
-    para.textContent = "Please select weather";
+ // else if문 작성
+
+  // if (choice === 'sunny') {
+  //   para.textContent = "It's sunny day";
+  // } else if (choice === 'rainy') {
+  //   para.textContent = "It's rainy day";
+  // } else if (choice === 'snowing') {
+  //   para.textContent = "It's snowing day";
+  // } else if (choice === 'overcast') {
+  //   para.textContent = "It's overcast day";
+  // } else {
+  //   para.textContent = 'Please select weather';
+  // }
+
+  // switch문으로 작성
+  switch (choice) {
+    case 'sunny':
+      para.textContent = "It's sunny day";
+      break;
+    case 'rainy':
+      para.textContent = "It's rainy day";
+      break;
+    case 'snowing':
+      para.textContent = "It's snowing day";
+      break;
+    case 'overcast':
+      para.textContent = "It's overcast day";
+      break;
+    default:
+      para.textContent = 'Please select weather';
   }
 }
-
 // switch 문 연습하기
 
 
@@ -271,21 +290,52 @@ if (score >= 50) {
   console.log("Passed");
 
   if (score >= 90) {
-    console.log("A")
+    console.log("A");
   } else if (score >= 80) {
-    console.log("B")
+    console.log("B");
   } else if (score >= 70) {
-    console.log("C")
+    console.log("C");
   } else {
-    console.log("Failed")
+    console.log("Failed");
   }
 }
-
 }
 
 // 위 중첩 if문을 삼항 연산자로 변환
-score = 85;
+score = 101;
 
-let grade = ;
+let grade = 
+// 100점 초과 0점 미만의 점수는 존재하지 않음.
+  score > 100 || score < 0 ? 'Not existed' :
+  score >= 90 ? 'A' :
+  score >= 80 ? 'B' :
+  score >= 70 ? 'C' :
+  score >= 60 ? 'D' : 'Failed';
 
 console.log(grade);
+
+// 출력값 확인
+true ? alert('출력A') : alert('출력B'); //A출력
+true ? alert('출력B') : alert('출력A'); //B출력
+true || alert('출력A') //A출력
+true && alert('출력A') //출력안됨, true에 and값을 붙이면 출력이 안됨.
+
+// OR 연산자
+false && false == false;
+false && true == true;
+true && false == true;
+true && true == true;
+
+// AND 연산자
+false && false == false;
+false && true == false;
+true && false == false;
+true && true == true;
+
+// and 연산자는 조건식이 둘 이상일 경우
+// , 하나만 false여도 최종 결과값이 false
+//? and 연산자 사용 시 false가 될 확률이 높은 조건을 첫 번째 조건식으로 사용하는 것을 권장
+
+// or 연산자는 조건식이 둘 이상일 경우
+// , 하나만 true여도 최종 결과값이 true
+//? or 연산자 사용 시 true가 될 확률이 높은 조건식을 첫 번째 조건식으로 사용하는 것을 권장
