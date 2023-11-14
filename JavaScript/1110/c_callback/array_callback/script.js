@@ -21,7 +21,7 @@ members.forEach(function (value, index) {
 console.log('-- map() --');
 //! 콜백함수를 활용하는 함수: map() 
 // : 콜백 함수에서 리턴한 값들을 기반으로 '새로운 배열'을 만드는 함수
-// : 수정
+// : 수정 할때 주로 사용
 
 let numbers = [273, 52, 103, 32, 57];
 
@@ -36,7 +36,7 @@ numbers.forEach(console.log);
 console.log('-- filter() --');
 //! 콜백함수를 활용하는 함수: filter()
 // : 콜백 함수에서 리턴하는 값이 true인 것들만 모아서 새로운 배열을 만드는 함~수
-// : 삭제
+// : 삭제 할때 주로 사용
 
 const filters = [0, 1, 2, 3, 4, 5];
 
