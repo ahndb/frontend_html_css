@@ -137,3 +137,20 @@ let slicedCars = cars.slice(1, 4); // 인덱스 번호 1,2,3이 추출
 console.log(slicedCars);
 console.log(cars);
 
+//? 4. concat() & join() 메소드
+// concat(): 배열을 결합
+// join(): 문자열로 변환
+moreCars = ['tayo', 'tomas'];
+let combinedCars = cars.concat(moreCars);
+console.log(combinedCars);
+
+// join 메소드 안에 문자열 값을 기준으로 배열의 요소들이 문자열로 반환
+let carsString = combinedCars.join(' ');
+console.log(carsString);
+
+//? split() 메소드  (문자열의 메소드)
+// 문자열로 이루어진 데이터를 정제하여
+// , 배열의 형태로 나타낼 때 사용
+let myData = 'Seoul, Busan, Daejeon';
+let myArray = myData.split(', ');
+console.log(myArray);
