@@ -87,7 +87,32 @@ console.log(numbers);
 numbers.reverse();
 console.log(numbers); // 배열 순서 뒤집기0
 
+//! 배열 요소의 검색 및 평가
+let fruits = ['apple', 'banan', 'cherry', 'apple'];
+//? 1. indexOf, lastIndexOf
+// : 특정 요소의 인덱스를 찾는 메소드
+let fristApple = fruits.indexOf('apple');
+console.log(fristApple); // 0
 
+let lastApple = fruits.lastIndexOf('apple');
+console.log(lastApple); // 3
+
+//? 2. find, findIndex
+// : 조건을 만족하는 요소나 해당 인덱스를 찾는 메소드
+// numbers = [9, 5, 4, 3, 1, 1];
+let firstOverFive = numbers.find(num => num > 5);
+console.log(firstOverFive); // 9
+
+let firstIndexOverFive = numbers.findIndex(num => num > 5);
+console.log(firstIndexOverFive); // 1
+
+//? 3. toString, toLocaleString(지역 설정에 맞는 문자열로 반환)
+// : 배열을 문자열로 변환
+let numberString = numbers.toString();
+console.log(typeof numberString);
+
+let numberLocaleString = numbers.toLocaleString();
+console.log(numberLocaleString);
 
 
 
