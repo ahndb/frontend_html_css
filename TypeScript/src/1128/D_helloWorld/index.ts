@@ -7,3 +7,10 @@ console.log("Hello TypeScript!");
 
 // js파일을 Node.js 런타임 환경에서 실행하는 명령어
 //? node 실행파일.js
+
+//! TS코드를 실시간으로 JS로 컴파일하고 실행
+// ts-node 설치
+// npm install -g ts-node 
+
+console.log("ts-node로 TS파일 실행하기");
+//? ts-node index.ts
